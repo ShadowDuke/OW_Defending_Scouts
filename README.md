@@ -1,5 +1,5 @@
 # Defending Scouts
-Scouts can defend themselves by attacking enemy units and can be upgraded to "Scout Warriors"
+Scouts can defend themselves by attacking enemy units and can be upgraded to "Scout Warriors".
 
 ## Installation and use
 
