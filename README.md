@@ -26,7 +26,7 @@ Scouts can defend themselves by attacking enemy units and can be upgraded to "Sc
    - Can only be upgraded from Scouts
    - Has Trait "Military Scout"
    - Can be build in cities
-   - Needs -10 Training to build (60 -> 50)
+   - Needs -20 Training to build (60 -> 40)
    - Consumes 2 food/year
    
 ## New Trait
