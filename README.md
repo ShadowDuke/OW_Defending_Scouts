@@ -14,7 +14,6 @@ Scouts can defend themselves by attacking enemy units and can be upgraded to "Sc
    - Can now attack
    - Has Trait "Military Scout"
    - Consumes now 1 food/year
-   - Heals -1 HP (5HP -> 4HP)
    - Starts with "panic"
    - Can be upgraded only to Scout Warrior
    - Can still not train or earn XP
@@ -32,6 +31,8 @@ Scouts can defend themselves by attacking enemy units and can be upgraded to "Sc
 ## New Trait
 
 - Military Scout
+   - Hidden in Trees
+   - Heals -1 HP (5HP -> 4HP)
    - -25% Melee Strength vs. Infantrie & Mounted
    - +10% Defense Strength vs. Infantrie & Mounted
    - -20% Attack Strength
