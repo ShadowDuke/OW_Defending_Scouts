@@ -1,5 +1,5 @@
 # Defending Scouts
-Scounts can defend themselves by attacking enemy unites
+Scouts can defend themselves by attacking enemy unites
 
 ## Installation and use
 
