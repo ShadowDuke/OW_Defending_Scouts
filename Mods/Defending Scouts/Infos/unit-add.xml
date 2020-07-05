@@ -75,6 +75,16 @@
 		<bOutsideOpinion>1</bOutsideOpinion>
 		<bZOC>1</bZOC>
 		<bBlocks>1</bBlocks>
+		<aiYieldCost>
+			<Pair>
+				<zIndex>YIELD_IRON</zIndex>
+				<iValue>30</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>YIELD_FOOD</zIndex>
+				<iValue>10</iValue>
+			</Pair>
+		</aiYieldCost>
 		<aiYieldConsumption>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
