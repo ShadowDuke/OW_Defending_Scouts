@@ -1,5 +1,5 @@
 # Defending Scouts
-Scouts can defend themselves by attacking enemy units
+Scouts can defend themselves by attacking enemy units and can be upgraded to "Scout Warriors"
 
 ## Installation and use
 
@@ -12,9 +12,27 @@ Scouts can defend themselves by attacking enemy units
 
 - Scout:
    - Can now attack
-      - -25% Melee Strength vs. Infantrie & Mounted
-      - +10% Defense Strength vs. Infantrie & Mounted
+   - Has Trait "Military Scout"
    - Consumes now 1 food/year
+   - Heals -1 HP (5HP -> 4HP)
    - Starts with "panic"
-   - Can be upgraded to Warrior
+   - Can be upgraded only to Scout Warrior
    - Can still not train or earn XP
+   
+   
+## New Unit
+
+- Scout Warrior:
+   - Can only be upgraded from Scouts
+   - Has Trait "Military Scout"
+   - Can be build in cities
+   - Needs -10 Training to build (60 -> 50)
+   - Consumes 2 food/year
+   
+## New Trait
+
+- Military Scout
+   - -25% Melee Strength vs. Infantrie & Mounted
+   - +10% Defense Strength vs. Infantrie & Mounted
+   - -20% Attack Strength
+   - -50% Critical Chance
