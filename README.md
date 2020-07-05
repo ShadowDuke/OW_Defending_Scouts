@@ -14,7 +14,7 @@ Scouts can defend themselves by attacking enemy unites
    - Can now attack
       - -25% Melee Strength vs. Infantrie & Mounted
       - +10% Defense Strength vs. Infantrie & Mounted
-   - Consumes wow 1 food/year
+   - Consumes now 1 food/year
    - Starts with "panic"
    - Can be upgraded to Warrior
    - Can still not train or earn XP
