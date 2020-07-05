@@ -9,7 +9,7 @@
 		<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>
 		<zAudioSelectionType>SCOUT</zAudioSelectionType>
 		<zAudioMovementType>SCOUT</zAudioMovementType>
-		<zAudioAttackType>GENERIC</zAudioAttackType>
+		<zAudioAttackType>ANIMATED</zAudioAttackType>
 		<aeFormations>
 			<zValue>FORMATION_SCOUT</zValue>
 			<zValue>FORMATION_SCOUT_WATER</zValue>
@@ -31,26 +31,6 @@
 		<bBlocks>1</bBlocks>
 		<bHarvest>1</bHarvest>
 		<bAgent>1</bAgent>
-		<aiUnitTraitModifierDefense>
-			<Pair>
-				<zIndex>UNITTRAIT_INFANTRY</zIndex>
-				<iValue>10</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>UNITTRAIT_MOUNTED</zIndex>
-				<iValue>10</iValue>
-			</Pair>
-		</aiUnitTraitModifierDefense>
-		<aiUnitTraitModifierMelee>
-			<Pair>
-				<zIndex>UNITTRAIT_INFANTRY</zIndex>
-				<iValue>-25</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>UNITTRAIT_MOUNTED</zIndex>
-				<iValue>-25</iValue>
-			</Pair>
-		</aiUnitTraitModifierMelee>
 		<aiYieldConsumption>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
@@ -58,15 +38,54 @@
 			</Pair>
 		</aiYieldConsumption>
 		<aeUpgradeUnit>
-			<zValue>UNIT_WARRIOR</zValue>
+			<zValue>UNIT_SCOUT_WARRIOR</zValue>
 		</aeUpgradeUnit>
 		<aeUnitTrait>
 			<zValue>UNITTRAIT_MELEE</zValue>
 			<zValue>UNITTRAIT_INFANTRY</zValue>
 		</aeUnitTrait>
 		<aeEffectUnit>
-			<zValue>EFFECTUNIT_STEALTH</zValue>
-			<zValue>EFFECTUNIT_PANIC</zValue>
+			<zValue>EFFECTUNIT_MILITARY_SCOUT</zValue>
+		</aeEffectUnit>
+	</Entry>
+	<Entry>
+		<zType>UNIT_SCOUT_WARRIOR</zType>
+		<Name>TEXT_UNIT_SCOUT_WARRIOR</Name>
+		<zIconName>UNIT_SCOUT</zIconName>
+		<zPortraitName>UNIT_WARRIOR</zPortraitName>
+		<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>
+		<zAudioSelectionType>SCOUT</zAudioSelectionType>
+		<zAudioMovementType>INFANTRY_METAL_LIGHT</zAudioMovementType>
+		<zAudioAttackType>ANIMATED</zAudioAttackType>
+		<aeFormations>
+			<zValue>FORMATION_WARRIOR</zValue>
+		</aeFormations>
+		<UnitCycle>UNITCYCLE_MILITARY_INFANTRY</UnitCycle>
+		<TechPrereq>TECH_IRONWORKING</TechPrereq>
+		<ProductionType>YIELD_TRAINING</ProductionType>
+		<iMovement>3</iMovement>
+		<iVision>5</iVision>
+		<iFatigue>4</iFatigue>
+		<iStrength>40</iStrength>
+		<iHPMax>20</iHPMax>
+		<iProduction>40</iProduction>
+		<bReveal>1</bReveal>
+		<bMelee>1</bMelee>
+		<bOutsideOpinion>1</bOutsideOpinion>
+		<bZOC>1</bZOC>
+		<bBlocks>1</bBlocks>
+		<aiYieldConsumption>
+			<Pair>
+				<zIndex>YIELD_FOOD</zIndex>
+				<iValue>2</iValue>
+			</Pair>
+		</aiYieldConsumption>
+		<aeUnitTrait>
+			<zValue>UNITTRAIT_MELEE</zValue>
+			<zValue>UNITTRAIT_INFANTRY</zValue>
+		</aeUnitTrait>
+		<aeEffectUnit>
+			<zValue>EFFECTUNIT_MILITARY_SCOUT</zValue>
 		</aeEffectUnit>
 	</Entry>
 </Root>
