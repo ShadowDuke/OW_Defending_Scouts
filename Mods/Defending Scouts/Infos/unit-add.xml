@@ -69,6 +69,7 @@
 		<iStrength>40</iStrength>
 		<iHPMax>20</iHPMax>
 		<iProduction>40</iProduction>
+		<iProductionPer>10</iProductionPer>
 		<bReveal>1</bReveal>
 		<bMelee>1</bMelee>
 		<bOutsideOpinion>1</bOutsideOpinion>
