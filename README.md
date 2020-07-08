@@ -37,3 +37,5 @@ Scouts can defend themselves by attacking enemy units and can be upgraded to "Sc
    - +10% Defense Strength vs. Infantrie & Mounted
    - -20% Attack Strength
    - -50% Critical Chance
+
+**Mod compatibility with all my mods**
