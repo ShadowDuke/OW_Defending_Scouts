@@ -8,39 +8,51 @@
 		<zPortraitName>UNIT_SCOUT</zPortraitName>
 		<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>
 		<zAudioSelectionType>SCOUT</zAudioSelectionType>
-		<zAudioMovementType>SCOUT</zAudioMovementType>
-		<zAudioAttackType>ANIMATED</zAudioAttackType>
+		<zAudioMovementType>ANIMATED</zAudioMovementType>
+		<zAudioAttackType>GENERIC</zAudioAttackType>
+		<zAudioDamagedByProjectileType>flesh</zAudioDamagedByProjectileType>
+		<azGenderPortraitName>
+			<Pair>
+				<zIndex>GENDER_MALE</zIndex>
+				<zValue>UNIT_SCOUT</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>GENDER_FEMALE</zIndex>
+				<zValue>UNIT_FEMALE_SCOUT</zValue>
+			</Pair>
+		</azGenderPortraitName>
 		<aeFormations>
 			<zValue>FORMATION_SCOUT</zValue>
+			<zValue>FORMATION_SCOUT_FEMALE</zValue>
 			<zValue>FORMATION_SCOUT_WATER</zValue>
 		</aeFormations>
 		<UnitCycle>UNITCYCLE_SCOUT</UnitCycle>
 		<ProductionType>YIELD_GROWTH</ProductionType>
 		<iMovement>3</iMovement>
 		<iVision>5</iVision>
+		<iReveal>1</iReveal>
 		<iFatigue>4</iFatigue>
 		<iStrength>30</iStrength>
 		<iHPMax>20</iHPMax>
 		<iProduction>50</iProduction>
 		<iProductionPer>5</iProductionPer>
-		<iStartCity>1</iStartCity>
-		<bReveal>1</bReveal>
-		<bMelee>1</bMelee>
 		<bIgnoreZOC>1</bIgnoreZOC>
-		<bBlocks>1</bBlocks>
 		<bHarvest>1</bHarvest>
 		<bAgent>1</bAgent>
-		<aiYieldConsumption>
+		<aiStartDifficulty>
 			<Pair>
-				<zIndex>YIELD_FOOD</zIndex>
+				<zIndex>DIFFICULTY_ABLE</zIndex>
 				<iValue>1</iValue>
 			</Pair>
-		</aiYieldConsumption>
+			<Pair>
+				<zIndex>DIFFICULTY_JUST</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+		</aiStartDifficulty>
 		<aeUpgradeUnit>
 			<zValue>UNIT_SCOUT_WARRIOR</zValue>
 		</aeUpgradeUnit>
 		<aeUnitTrait>
-			<zValue>UNITTRAIT_MELEE</zValue>
 			<zValue>UNITTRAIT_INFANTRY</zValue>
 		</aeUnitTrait>
 		<aeEffectUnit>
@@ -69,7 +81,6 @@
 		<iHPMax>20</iHPMax>
 		<iProduction>40</iProduction>
 		<iProductionPer>10</iProductionPer>
-		<bReveal>1</bReveal>
 		<bMelee>1</bMelee>
 		<bOutsideOpinion>1</bOutsideOpinion>
 		<bZOC>1</bZOC>
